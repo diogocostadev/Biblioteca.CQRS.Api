@@ -1,0 +1,6 @@
+@Biblioteca.CQRS.Api_HostAddress = http://localhost:5194
+
+GET {{Biblioteca.CQRS.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
