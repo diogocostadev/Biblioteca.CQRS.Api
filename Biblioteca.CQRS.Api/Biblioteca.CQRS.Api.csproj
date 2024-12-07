@@ -10,4 +10,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Biblioteca.CQRS.Commands\Biblioteca.CQRS.Commands.csproj" />
+      <ProjectReference Include="..\Biblioteca.CQRS.Infrastrucure\Biblioteca.CQRS.Infrastrucure.csproj" />
+      <ProjectReference Include="..\Biblioteca.CQRS.Queries\Biblioteca.CQRS.Queries.csproj" />
+    </ItemGroup>
+
 </Project>
